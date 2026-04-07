@@ -16,10 +16,9 @@ class InverseKinematics(Node):
             10
         )
 
-        # 🎯 Target (puedes cambiarlo)
         self.target = np.array([1.5, 0.5, 3.0])
 
-        # 📏 Longitudes (Robot A)
+        #Longitudes (Robot A)
         self.l1 = 3.0
         self.l2 = 1.5
         self.l3 = 1.5
@@ -31,7 +30,6 @@ class InverseKinematics(Node):
             q2 = msg.position[1]
             q3 = msg.position[2]
 
-            # 🔥 CINEMÁTICA DIRECTA (FK)
             x = np.cos(q1) * (self.l2 * np.cos(q2) + self.l3 * np.cos(q2 + q3))
             y = np.sin(q1) * (self.l2 * np.cos(q2) + self.l3 * np.cos(q2 + q3))
             z = self.l1 + self.l2 * np.sin(q2) + self.l3 * np.sin(q2 + q3)
@@ -40,7 +38,6 @@ class InverseKinematics(Node):
 
             error = np.linalg.norm(self.target - current)
 
-            # 📢 PRINT COMO EN CLASE
             self.get_logger().info(f"q: {[q1, q2, q3]}")
             self.get_logger().info(f"Posición: {current}")
             self.get_logger().info(f"Error: {error}")

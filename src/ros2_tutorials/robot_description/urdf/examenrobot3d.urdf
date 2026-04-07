@@ -1,6 +1,5 @@
 <robot name="robot_A">
 
-  <!-- BASE -->
   <link name="base_link">
     <visual>
       <geometry>
@@ -12,7 +11,6 @@
     </visual>
   </link>
 
-  <!-- LINK 1 (vertical 2L = 3) -->
   <link name="link1">
     <visual>
       <origin xyz="0 0 1.5"/>
@@ -27,11 +25,10 @@
     <origin xyz="0 0 0"/>
     <parent link="base_link"/>
     <child link="link1"/>
-    <axis xyz="0 0 1"/> <!-- rotación vertical -->
+    <axis xyz="0 0 1"/> 
     <limit lower="-3.14" upper="3.14" effort="1" velocity="1"/>
   </joint>
 
-  <!-- LINK 2 (horizontal L = 1.5) -->
   <link name="link2">
     <visual>
       <origin xyz="0.75 0 0" rpy="0 1.5708 0"/>
@@ -43,14 +40,13 @@
   </link>
 
   <joint name="joint2" type="revolute">
-    <origin xyz="0 0 3"/> <!-- arriba de la columna -->
+    <origin xyz="0 0 3"/> 
     <parent link="link1"/>
     <child link="link2"/>
-    <axis xyz="0 1 0"/> <!-- pitch -->
+    <axis xyz="0 1 0"/> 
     <limit lower="-1.57" upper="1.57" effort="1" velocity="1"/>
   </joint>
 
-  <!-- LINK 3 (horizontal L = 1.5) -->
   <link name="link3">
     <visual>
       <origin xyz="0.75 0 0" rpy="0 1.5708 0"/>
@@ -67,7 +63,7 @@
     <origin xyz="1.5 0 0"/>
     <parent link="link2"/>
     <child link="link3"/>
-    <axis xyz="0 1 0"/> <!-- pitch -->
+    <axis xyz="0 1 0"/> 
     <limit lower="-1.57" upper="1.57" effort="1" velocity="1"/>
   </joint>
 
