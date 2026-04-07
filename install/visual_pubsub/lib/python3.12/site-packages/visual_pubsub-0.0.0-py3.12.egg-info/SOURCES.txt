@@ -14,6 +14,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 visual_pubsub/__init__.py
-visual_pubsub/inverse_kinematics.py
 visual_pubsub/pub_joints.py
 visual_pubsub/sub_joints.py
