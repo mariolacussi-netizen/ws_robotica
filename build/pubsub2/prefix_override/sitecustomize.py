@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/mariola/visual_ws/install/pubsub2'
+    sys.prefix = sys.exec_prefix = '/home/mariola/ws_robotica/install/pubsub2'

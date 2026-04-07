@@ -1,0 +1,372 @@
+[0.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76894f75cf20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76894f75ce00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76894f75ce00>>, mixin_verb=('build',))
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.173s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mariola/ws_robotica'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials/pubsub2' with type 'ros.ament_python' and name 'pubsub2'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2_interfaces) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2_interfaces) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2_interfaces) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2_interfaces) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2_interfaces) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2_interfaces) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2_interfaces) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/pubsub2_interfaces) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials/pubsub2_interfaces' with type 'ros.ament_cmake' and name 'pubsub2_interfaces'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_description) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/robot_ik/robot_ik) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials/visual_pubsub) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials/visual_pubsub' with type 'ros.ament_python' and name 'visual_pubsub'
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.239s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/mariola/ws_robotica/install
+[0.240s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/mariola/visual_ws/install
+[0.242s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/jazzy
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pubsub2_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pubsub2_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pubsub2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pubsub2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pubsub2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pubsub2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pubsub2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pubsub2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pubsub2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'pubsub2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mariola/ws_robotica/build/pubsub2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mariola/ws_robotica/install/pubsub2_interfaces', 'merge_install': False, 'path': '/home/mariola/ws_robotica/src/ros2_tutorials/pubsub2_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mariola/ws_robotica/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mariola/ws_robotica/install/robot_description', 'merge_install': False, 'path': '/home/mariola/ws_robotica/src/ros2_tutorials/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'visual_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mariola/ws_robotica/build/visual_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mariola/ws_robotica/install/visual_pubsub', 'merge_install': False, 'path': '/home/mariola/ws_robotica/src/ros2_tutorials/visual_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'pubsub2' build argument 'cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'pubsub2' build argument 'cmake_target' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'pubsub2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'pubsub2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'pubsub2' build argument 'cmake_clean_first' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'pubsub2' build argument 'cmake_force_configure' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'pubsub2' build argument 'ament_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'pubsub2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'pubsub2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.288s] DEBUG:colcon.colcon_core.verb:Building package 'pubsub2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mariola/ws_robotica/build/pubsub2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mariola/ws_robotica/install/pubsub2', 'merge_install': False, 'path': '/home/mariola/ws_robotica/src/ros2_tutorials/pubsub2', 'symlink_install': False, 'test_result_base': None}
+[0.288s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.289s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mariola/ws_robotica/src/ros2_tutorials/pubsub2_interfaces' with build type 'ament_cmake'
+[0.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mariola/ws_robotica/src/ros2_tutorials/pubsub2_interfaces'
+[0.293s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mariola/ws_robotica/src/ros2_tutorials/robot_description' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mariola/ws_robotica/src/ros2_tutorials/robot_description'
+[0.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.304s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mariola/ws_robotica/src/ros2_tutorials/visual_pubsub' with build type 'ament_python'
+[0.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('visual_pubsub', 'ament_prefix_path')
+[0.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/visual_pubsub/share/visual_pubsub/hook/ament_prefix_path.ps1'
+[0.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/visual_pubsub/share/visual_pubsub/hook/ament_prefix_path.dsv'
+[0.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/visual_pubsub/share/visual_pubsub/hook/ament_prefix_path.sh'
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariola/ws_robotica/build/pubsub2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariola/ws_robotica/install/pubsub2:/home/mariola/ws_robotica/install/visual_pubsub:/home/mariola/ws_robotica/install/robot_ik:/home/mariola/ws_robotica/install/robot_control:/home/mariola/visual_ws/install/pubsub2:/home/mariola/visual_ws/install/visual_pubsub:/home/mariola/visual_ws/install/robot_ik:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mariola/ws_robotica/build/pubsub2_interfaces -- -j12 -l12
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariola/ws_robotica/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariola/ws_robotica/install/pubsub2:/home/mariola/ws_robotica/install/visual_pubsub:/home/mariola/ws_robotica/install/robot_ik:/home/mariola/ws_robotica/install/robot_control:/home/mariola/visual_ws/install/pubsub2:/home/mariola/visual_ws/install/visual_pubsub:/home/mariola/visual_ws/install/robot_ik:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mariola/ws_robotica/build/robot_description -- -j12 -l12
+[0.645s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mariola/ws_robotica/src/ros2_tutorials/visual_pubsub'
+[0.646s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.646s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariola/ws_robotica/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariola/ws_robotica/install/pubsub2:/home/mariola/ws_robotica/install/visual_pubsub:/home/mariola/ws_robotica/install/robot_ik:/home/mariola/ws_robotica/install/robot_control:/home/mariola/visual_ws/install/pubsub2:/home/mariola/visual_ws/install/visual_pubsub:/home/mariola/visual_ws/install/robot_ik:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mariola/ws_robotica/build/robot_description -- -j12 -l12
+[0.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariola/ws_robotica/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariola/ws_robotica/install/pubsub2:/home/mariola/ws_robotica/install/visual_pubsub:/home/mariola/ws_robotica/install/robot_ik:/home/mariola/ws_robotica/install/robot_control:/home/mariola/visual_ws/install/pubsub2:/home/mariola/visual_ws/install/visual_pubsub:/home/mariola/visual_ws/install/robot_ik:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mariola/ws_robotica/build/robot_description
+[0.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[0.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariola/ws_robotica/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariola/ws_robotica/install/pubsub2:/home/mariola/ws_robotica/install/visual_pubsub:/home/mariola/ws_robotica/install/robot_ik:/home/mariola/ws_robotica/install/robot_control:/home/mariola/visual_ws/install/pubsub2:/home/mariola/visual_ws/install/visual_pubsub:/home/mariola/visual_ws/install/robot_ik:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mariola/ws_robotica/build/robot_description
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description' for CMake module files
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description' for CMake config files
+[0.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/lib'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/bin'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/lib/python3.12/site-packages'
+[0.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'pythonpath')
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/pythonpath.ps1'
+[0.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/pythonpath.dsv'
+[0.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/pythonpath.sh'
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/bin'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.ps1'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.dsv'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.sh'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.bash'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.zsh'
+[0.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariola/ws_robotica/install/robot_description/share/colcon-core/packages/robot_description)
+[0.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description' for CMake module files
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description' for CMake config files
+[0.697s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/lib'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/bin'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/lib/python3.12/site-packages'
+[0.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'pythonpath')
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/pythonpath.ps1'
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/pythonpath.dsv'
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/pythonpath.sh'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/bin'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.ps1'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.dsv'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.sh'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.bash'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.zsh'
+[0.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariola/ws_robotica/install/robot_description/share/colcon-core/packages/robot_description)
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariola/ws_robotica/build/pubsub2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariola/ws_robotica/install/pubsub2:/home/mariola/ws_robotica/install/visual_pubsub:/home/mariola/ws_robotica/install/robot_ik:/home/mariola/ws_robotica/install/robot_control:/home/mariola/visual_ws/install/pubsub2:/home/mariola/visual_ws/install/visual_pubsub:/home/mariola/visual_ws/install/robot_ik:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mariola/ws_robotica/build/pubsub2_interfaces -- -j12 -l12
+[0.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariola/ws_robotica/build/pubsub2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariola/ws_robotica/install/pubsub2:/home/mariola/ws_robotica/install/visual_pubsub:/home/mariola/ws_robotica/install/robot_ik:/home/mariola/ws_robotica/install/robot_control:/home/mariola/visual_ws/install/pubsub2:/home/mariola/visual_ws/install/visual_pubsub:/home/mariola/visual_ws/install/robot_ik:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mariola/ws_robotica/build/pubsub2_interfaces
+[0.920s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pubsub2_interfaces)
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces' for CMake module files
+[0.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariola/ws_robotica/build/pubsub2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mariola/ws_robotica/install/pubsub2:/home/mariola/ws_robotica/install/visual_pubsub:/home/mariola/ws_robotica/install/robot_ik:/home/mariola/ws_robotica/install/robot_control:/home/mariola/visual_ws/install/pubsub2:/home/mariola/visual_ws/install/visual_pubsub:/home/mariola/visual_ws/install/robot_ik:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mariola/ws_robotica/build/pubsub2_interfaces
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces' for CMake config files
+[0.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub2_interfaces', 'cmake_prefix_path')
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/cmake_prefix_path.ps1'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/cmake_prefix_path.dsv'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/cmake_prefix_path.sh'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces/lib'
+[0.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub2_interfaces', 'ld_library_path_lib')
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/ld_library_path_lib.ps1'
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/ld_library_path_lib.dsv'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/ld_library_path_lib.sh'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces/bin'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces/lib/pkgconfig/pubsub2_interfaces.pc'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces/lib/python3.12/site-packages'
+[0.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub2_interfaces', 'pythonpath')
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/pythonpath.ps1'
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/pythonpath.dsv'
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/pythonpath.sh'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces/bin'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/package.ps1'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/package.dsv'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/package.sh'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/package.bash'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/package.zsh'
+[0.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariola/ws_robotica/install/pubsub2_interfaces/share/colcon-core/packages/pubsub2_interfaces)
+[0.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pubsub2_interfaces)
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces' for CMake module files
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces' for CMake config files
+[0.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub2_interfaces', 'cmake_prefix_path')
+[0.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/cmake_prefix_path.ps1'
+[0.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/cmake_prefix_path.dsv'
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/cmake_prefix_path.sh'
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces/lib'
+[0.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub2_interfaces', 'ld_library_path_lib')
+[0.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/ld_library_path_lib.ps1'
+[0.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/ld_library_path_lib.dsv'
+[0.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/ld_library_path_lib.sh'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces/bin'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces/lib/pkgconfig/pubsub2_interfaces.pc'
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces/lib/python3.12/site-packages'
+[0.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub2_interfaces', 'pythonpath')
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/pythonpath.ps1'
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/pythonpath.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/hook/pythonpath.sh'
+[0.946s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2_interfaces/bin'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/package.ps1'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/package.dsv'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/package.sh'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/package.bash'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/pubsub2_interfaces/share/pubsub2_interfaces/package.zsh'
+[0.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariola/ws_robotica/install/pubsub2_interfaces/share/colcon-core/packages/pubsub2_interfaces)
+[0.949s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mariola/ws_robotica/src/ros2_tutorials/pubsub2' with build type 'ament_python'
+[0.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub2', 'ament_prefix_path')
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2/share/pubsub2/hook/ament_prefix_path.ps1'
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/pubsub2/share/pubsub2/hook/ament_prefix_path.dsv'
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2/share/pubsub2/hook/ament_prefix_path.sh'
+[0.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.214s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mariola/ws_robotica/src/ros2_tutorials/pubsub2'
+[1.215s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariola/ws_robotica/src/ros2_tutorials/visual_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariola/ws_robotica/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/ws_robotica/install/visual_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/visual_pubsub build --build-base /home/mariola/ws_robotica/build/visual_pubsub/build install --record /home/mariola/ws_robotica/build/visual_pubsub/install.log --single-version-externally-managed install_data
+[1.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariola/ws_robotica/src/ros2_tutorials/pubsub2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariola/ws_robotica/build/pubsub2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/ws_robotica/install/pubsub2/lib/python3.12/site-packages:/home/mariola/ws_robotica/install/pubsub2_interfaces/lib/python3.12/site-packages:/home/mariola/ws_robotica/install/pubsub2/lib/python3.12/site-packages:/home/mariola/ws_robotica/install/visual_pubsub/lib/python3.12/site-packages:/home/mariola/ws_robotica/install/robot_ik/lib/python3.12/site-packages:/home/mariola/ws_robotica/install/robot_description/lib/python3.12/site-packages:/home/mariola/ws_robotica/install/robot_control/lib/python3.12/site-packages:/home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages:/home/mariola/visual_ws/install/pubsub2_interfaces/lib/python3.12/site-packages:/home/mariola/visual_ws/install/visual_pubsub/lib/python3.12/site-packages:/home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pubsub2 build --build-base /home/mariola/ws_robotica/build/pubsub2/build install --record /home/mariola/ws_robotica/build/pubsub2/install.log --single-version-externally-managed install_data
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/visual_pubsub' for CMake module files
+[1.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariola/ws_robotica/src/ros2_tutorials/visual_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariola/ws_robotica/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/ws_robotica/install/visual_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/visual_pubsub build --build-base /home/mariola/ws_robotica/build/visual_pubsub/build install --record /home/mariola/ws_robotica/build/visual_pubsub/install.log --single-version-externally-managed install_data
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/visual_pubsub' for CMake config files
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/visual_pubsub/lib'
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/visual_pubsub/bin'
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/visual_pubsub/lib/pkgconfig/visual_pubsub.pc'
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/visual_pubsub/lib/python3.12/site-packages'
+[1.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('visual_pubsub', 'pythonpath')
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/visual_pubsub/share/visual_pubsub/hook/pythonpath.ps1'
+[1.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/visual_pubsub/share/visual_pubsub/hook/pythonpath.dsv'
+[1.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/visual_pubsub/share/visual_pubsub/hook/pythonpath.sh'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/visual_pubsub/bin'
+[1.935s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visual_pubsub)
+[1.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/visual_pubsub/share/visual_pubsub/package.ps1'
+[1.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariola/ws_robotica/install/visual_pubsub/share/visual_pubsub/package.dsv'
+[1.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/visual_pubsub/share/visual_pubsub/package.sh'
+[1.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/visual_pubsub/share/visual_pubsub/package.bash'
+[1.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/visual_pubsub/share/visual_pubsub/package.zsh'
+[1.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariola/ws_robotica/install/visual_pubsub/share/colcon-core/packages/visual_pubsub)
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2' for CMake module files
+[2.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariola/ws_robotica/src/ros2_tutorials/pubsub2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariola/ws_robotica/build/pubsub2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/ws_robotica/install/pubsub2/lib/python3.12/site-packages:/home/mariola/ws_robotica/install/pubsub2_interfaces/lib/python3.12/site-packages:/home/mariola/ws_robotica/install/pubsub2/lib/python3.12/site-packages:/home/mariola/ws_robotica/install/visual_pubsub/lib/python3.12/site-packages:/home/mariola/ws_robotica/install/robot_ik/lib/python3.12/site-packages:/home/mariola/ws_robotica/install/robot_description/lib/python3.12/site-packages:/home/mariola/ws_robotica/install/robot_control/lib/python3.12/site-packages:/home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages:/home/mariola/visual_ws/install/pubsub2_interfaces/lib/python3.12/site-packages:/home/mariola/visual_ws/install/visual_pubsub/lib/python3.12/site-packages:/home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pubsub2 build --build-base /home/mariola/ws_robotica/build/pubsub2/build install --record /home/mariola/ws_robotica/build/pubsub2/install.log --single-version-externally-managed install_data
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2' for CMake config files
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2/lib'
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2/bin'
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2/lib/pkgconfig/pubsub2.pc'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2/lib/python3.12/site-packages'
+[2.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub2', 'pythonpath')
+[2.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2/share/pubsub2/hook/pythonpath.ps1'
+[2.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/pubsub2/share/pubsub2/hook/pythonpath.dsv'
+[2.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/pubsub2/share/pubsub2/hook/pythonpath.sh'
+[2.498s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/pubsub2/bin'
+[2.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pubsub2)
+[2.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/pubsub2/share/pubsub2/package.ps1'
+[2.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariola/ws_robotica/install/pubsub2/share/pubsub2/package.dsv'
+[2.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/pubsub2/share/pubsub2/package.sh'
+[2.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/pubsub2/share/pubsub2/package.bash'
+[2.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/pubsub2/share/pubsub2/package.zsh'
+[2.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariola/ws_robotica/install/pubsub2/share/colcon-core/packages/pubsub2)
+[2.501s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.501s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.501s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.501s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.508s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.537s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mariola/ws_robotica/install/local_setup.ps1'
+[2.539s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mariola/ws_robotica/install/_local_setup_util_ps1.py'
+[2.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mariola/ws_robotica/install/setup.ps1'
+[2.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mariola/ws_robotica/install/local_setup.sh'
+[2.543s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mariola/ws_robotica/install/_local_setup_util_sh.py'
+[2.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mariola/ws_robotica/install/setup.sh'
+[2.545s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mariola/ws_robotica/install/local_setup.bash'
+[2.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mariola/ws_robotica/install/setup.bash'
+[2.548s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mariola/ws_robotica/install/local_setup.zsh'
+[2.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mariola/ws_robotica/install/setup.zsh'
