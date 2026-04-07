@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pubsub2_interfaces__py",
+		"source" : "/home/mariola/visual_ws/build/pubsub2_interfaces/pubsub2_interfaces__py"
+	}
+}

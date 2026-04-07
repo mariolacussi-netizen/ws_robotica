@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4a9778c9443652731dbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "pubsub2_interfaces__py",
+					"jsonFile" : "directory-pubsub2_interfaces__py-6ab6fd395cc86fa7ee10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mariola/visual_ws/build/pubsub2_interfaces/pubsub2_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "pubsub2_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_pubsub2_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_pubsub2_interfaces_egg-742f88d03bc7e4e5e0fb.json",
+					"name" : "ament_cmake_python_build_pubsub2_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_pubsub2_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_pubsub2_interfaces-2502a3c90e5f4bbc7ceb.json",
+					"name" : "ament_cmake_python_copy_pubsub2_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces-8035334a623a9f5ba229.json",
+					"name" : "pubsub2_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces__cpp-dc980fa71fae566af43c.json",
+					"name" : "pubsub2_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pubsub2_interfaces__py::@f60d406650ebb4c658a5",
+					"jsonFile" : "target-pubsub2_interfaces__py-d2039e9d829eb3d67490.json",
+					"name" : "pubsub2_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces__rosidl_generator_c-92676380cb887ba2a2f9.json",
+					"name" : "pubsub2_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces__rosidl_generator_py-bf900e9f5c040f4f80a7.json",
+					"name" : "pubsub2_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces__rosidl_generator_type_description-7d872d23b3993aaf9e6e.json",
+					"name" : "pubsub2_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces__rosidl_typesupport_c-d0e8693386bbd13f5ba5.json",
+					"name" : "pubsub2_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces__rosidl_typesupport_cpp-5254e165c380b11b3270.json",
+					"name" : "pubsub2_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces__rosidl_typesupport_fastrtps_c-63ae168d441ace4b7daa.json",
+					"name" : "pubsub2_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces__rosidl_typesupport_fastrtps_cpp-5d9290a05fe2ecb7d9a7.json",
+					"name" : "pubsub2_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces__rosidl_typesupport_introspection_c-42bb3328ce05ff0f288b.json",
+					"name" : "pubsub2_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces__rosidl_typesupport_introspection_cpp-e37e172320d970a68c69.json",
+					"name" : "pubsub2_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces_s__rosidl_typesupport_c-0f5c314d46ad6609d403.json",
+					"name" : "pubsub2_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces_s__rosidl_typesupport_fastrtps_c-e3dec5bb382d79e012be.json",
+					"name" : "pubsub2_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces_s__rosidl_typesupport_introspection_c-7d65b24d82cec07e4fcc.json",
+					"name" : "pubsub2_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub2_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub2_interfaces_uninstall-e9faa5b793aecbb092df.json",
+					"name" : "pubsub2_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-db7eb6de8749f59c5d8d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mariola/visual_ws/build/pubsub2_interfaces",
+		"source" : "/home/mariola/visual_ws/src/pubsub2_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

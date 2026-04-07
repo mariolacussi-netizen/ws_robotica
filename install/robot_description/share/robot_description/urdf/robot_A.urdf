@@ -1,0 +1,47 @@
+<robot name="robot_A">
+
+  <!-- BASE -->
+  <link name="base"/>
+
+  <!-- JOINT 1 (θ1) -->
+  <joint name="joint1" type="revolute">
+    <parent link="base"/>
+    <child link="link1"/>
+
+    <!-- gira sobre Z -->
+    <axis xyz="0 0 1"/>
+
+    <!-- posición -->
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="link1"/>
+
+  <!-- JOINT 2 (θ2) -->
+  <joint name="joint2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+
+    <!-- gira sobre Y -->
+    <axis xyz="0 1 0"/>
+
+    <!-- altura 2L -->
+    <origin xyz="0 0 3.0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="link2"/>
+
+  <!-- JOINT 3 (θ3) -->
+  <joint name="joint3" type="revolute">
+    <parent link="link2"/>
+    <child link="link3"/>
+
+    <axis xyz="0 1 0"/>
+
+    <!-- longitud L -->
+    <origin xyz="1.5 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="link3"/>
+
+</robot>

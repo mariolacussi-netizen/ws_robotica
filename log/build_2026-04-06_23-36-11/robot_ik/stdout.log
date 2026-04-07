@@ -1,0 +1,36 @@
+running egg_info
+creating ../build/robot_ik/robot_ik.egg-info
+writing ../build/robot_ik/robot_ik.egg-info/PKG-INFO
+writing dependency_links to ../build/robot_ik/robot_ik.egg-info/dependency_links.txt
+writing entry points to ../build/robot_ik/robot_ik.egg-info/entry_points.txt
+writing requirements to ../build/robot_ik/robot_ik.egg-info/requires.txt
+writing top-level names to ../build/robot_ik/robot_ik.egg-info/top_level.txt
+writing manifest file '../build/robot_ik/robot_ik.egg-info/SOURCES.txt'
+reading manifest file '../build/robot_ik/robot_ik.egg-info/SOURCES.txt'
+writing manifest file '../build/robot_ik/robot_ik.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mariola/visual_ws/build/robot_ik/build
+creating /home/mariola/visual_ws/build/robot_ik/build/lib
+creating /home/mariola/visual_ws/build/robot_ik/build/lib/robot_ik
+copying robot_ik/__init__.py -> /home/mariola/visual_ws/build/robot_ik/build/lib/robot_ik
+copying robot_ik/ik_node.py -> /home/mariola/visual_ws/build/robot_ik/build/lib/robot_ik
+running install
+running install_lib
+creating /home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages/robot_ik
+copying /home/mariola/visual_ws/build/robot_ik/build/lib/robot_ik/__init__.py -> /home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages/robot_ik
+copying /home/mariola/visual_ws/build/robot_ik/build/lib/robot_ik/ik_node.py -> /home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages/robot_ik
+byte-compiling /home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages/robot_ik/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages/robot_ik/ik_node.py to ik_node.cpython-312.pyc
+running install_data
+creating /home/mariola/visual_ws/install/robot_ik/share/ament_index
+creating /home/mariola/visual_ws/install/robot_ik/share/ament_index/resource_index
+creating /home/mariola/visual_ws/install/robot_ik/share/ament_index/resource_index/packages
+copying resource/robot_ik -> /home/mariola/visual_ws/install/robot_ik/share/ament_index/resource_index/packages
+copying package.xml -> /home/mariola/visual_ws/install/robot_ik/share/robot_ik
+running install_egg_info
+Copying ../build/robot_ik/robot_ik.egg-info to /home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages/robot_ik-0.0.0-py3.12.egg-info
+running install_scripts
+Installing ik_node script to /home/mariola/visual_ws/install/robot_ik/lib/robot_ik
+Installing ik_nodebio script to /home/mariola/visual_ws/install/robot_ik/lib/robot_ik
+writing list of installed files to '/home/mariola/visual_ws/build/robot_ik/install.log'

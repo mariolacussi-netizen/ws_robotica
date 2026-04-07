@@ -1,0 +1,38 @@
+[0.756s] Invoking command in '/home/mariola/visual_ws/robot_ik': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariola/visual_ws/build/robot_ik/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_ik build --build-base /home/mariola/visual_ws/build/robot_ik/build install --record /home/mariola/visual_ws/build/robot_ik/install.log --single-version-externally-managed install_data
+[0.940s] running egg_info
+[0.940s] creating ../build/robot_ik/robot_ik.egg-info
+[0.950s] writing ../build/robot_ik/robot_ik.egg-info/PKG-INFO
+[0.951s] writing dependency_links to ../build/robot_ik/robot_ik.egg-info/dependency_links.txt
+[0.951s] writing entry points to ../build/robot_ik/robot_ik.egg-info/entry_points.txt
+[0.951s] writing requirements to ../build/robot_ik/robot_ik.egg-info/requires.txt
+[0.951s] writing top-level names to ../build/robot_ik/robot_ik.egg-info/top_level.txt
+[0.951s] writing manifest file '../build/robot_ik/robot_ik.egg-info/SOURCES.txt'
+[0.975s] reading manifest file '../build/robot_ik/robot_ik.egg-info/SOURCES.txt'
+[0.975s] writing manifest file '../build/robot_ik/robot_ik.egg-info/SOURCES.txt'
+[0.976s] running build
+[0.976s] running build_py
+[0.976s] creating /home/mariola/visual_ws/build/robot_ik/build
+[0.976s] creating /home/mariola/visual_ws/build/robot_ik/build/lib
+[0.976s] creating /home/mariola/visual_ws/build/robot_ik/build/lib/robot_ik
+[0.976s] copying robot_ik/__init__.py -> /home/mariola/visual_ws/build/robot_ik/build/lib/robot_ik
+[0.976s] copying robot_ik/ik_node.py -> /home/mariola/visual_ws/build/robot_ik/build/lib/robot_ik
+[0.976s] running install
+[0.981s] running install_lib
+[0.993s] creating /home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages/robot_ik
+[0.993s] copying /home/mariola/visual_ws/build/robot_ik/build/lib/robot_ik/__init__.py -> /home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages/robot_ik
+[0.993s] copying /home/mariola/visual_ws/build/robot_ik/build/lib/robot_ik/ik_node.py -> /home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages/robot_ik
+[0.993s] byte-compiling /home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages/robot_ik/__init__.py to __init__.cpython-312.pyc
+[0.993s] byte-compiling /home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages/robot_ik/ik_node.py to ik_node.cpython-312.pyc
+[0.994s] running install_data
+[0.994s] creating /home/mariola/visual_ws/install/robot_ik/share/ament_index
+[0.994s] creating /home/mariola/visual_ws/install/robot_ik/share/ament_index/resource_index
+[0.995s] creating /home/mariola/visual_ws/install/robot_ik/share/ament_index/resource_index/packages
+[0.995s] copying resource/robot_ik -> /home/mariola/visual_ws/install/robot_ik/share/ament_index/resource_index/packages
+[0.995s] copying package.xml -> /home/mariola/visual_ws/install/robot_ik/share/robot_ik
+[0.995s] running install_egg_info
+[1.008s] Copying ../build/robot_ik/robot_ik.egg-info to /home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages/robot_ik-0.0.0-py3.12.egg-info
+[1.008s] running install_scripts
+[1.103s] Installing ik_node script to /home/mariola/visual_ws/install/robot_ik/lib/robot_ik
+[1.103s] Installing ik_nodebio script to /home/mariola/visual_ws/install/robot_ik/lib/robot_ik
+[1.103s] writing list of installed files to '/home/mariola/visual_ws/build/robot_ik/install.log'
+[1.141s] Invoked command in '/home/mariola/visual_ws/robot_ik' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariola/visual_ws/build/robot_ik/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/visual_ws/install/robot_ik/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_ik build --build-base /home/mariola/visual_ws/build/robot_ik/build install --record /home/mariola/visual_ws/build/robot_ik/install.log --single-version-externally-managed install_data

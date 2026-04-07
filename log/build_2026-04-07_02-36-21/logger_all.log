@@ -1,0 +1,231 @@
+[0.124s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.124s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x725bc077cce0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x725bc077c8f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x725bc077c8f0>>, mixin_verb=('build',))
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.169s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mariola/ws_robotica'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control' with type 'ros.ament_python' and name 'robot_control'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_python' and name 'robot_description'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ik) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ik) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ik) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ik) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ik) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ik) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ik) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ik) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_ik' with type 'ros.ament_python' and name 'robot_ik'
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.231s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/mariola/ws_robotica/install/robot_ik' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.231s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/mariola/ws_robotica/install/robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.231s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/mariola/ws_robotica/install/robot_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.232s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/mariola/ws_robotica/install
+[0.232s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/mariola/visual_ws/install
+[0.234s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/jazzy
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mariola/ws_robotica/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mariola/ws_robotica/install/robot_control', 'merge_install': False, 'path': '/home/mariola/ws_robotica/src/robot_control', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mariola/ws_robotica/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mariola/ws_robotica/install/robot_description', 'merge_install': False, 'path': '/home/mariola/ws_robotica/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_ik' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_ik' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'robot_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mariola/ws_robotica/build/robot_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mariola/ws_robotica/install/robot_ik', 'merge_install': False, 'path': '/home/mariola/ws_robotica/src/robot_ik', 'symlink_install': False, 'test_result_base': None}
+[0.280s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.282s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mariola/ws_robotica/src/robot_control' with build type 'ament_python'
+[0.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'ament_prefix_path')
+[0.284s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_control/share/robot_control/hook/ament_prefix_path.ps1'
+[0.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/robot_control/share/robot_control/hook/ament_prefix_path.dsv'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_control/share/robot_control/hook/ament_prefix_path.sh'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mariola/ws_robotica/src/robot_description' with build type 'ament_python'
+[0.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'ament_prefix_path')
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/ament_prefix_path.ps1'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/ament_prefix_path.dsv'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/ament_prefix_path.sh'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.299s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mariola/ws_robotica/src/robot_ik' with build type 'ament_python'
+[0.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_ik', 'ament_prefix_path')
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_ik/share/robot_ik/hook/ament_prefix_path.ps1'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/robot_ik/share/robot_ik/hook/ament_prefix_path.dsv'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_ik/share/robot_ik/hook/ament_prefix_path.sh'
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.564s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mariola/ws_robotica/src/robot_control'
+[0.564s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.564s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.835s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mariola/ws_robotica/src/robot_description'
+[0.835s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.103s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mariola/ws_robotica/src/robot_ik'
+[1.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariola/ws_robotica/src/robot_ik': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariola/ws_robotica/build/robot_ik/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/ws_robotica/install/robot_ik/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_ik build --build-base /home/mariola/ws_robotica/build/robot_ik/build install --record /home/mariola/ws_robotica/build/robot_ik/install.log --single-version-externally-managed install_data
+[1.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariola/ws_robotica/src/robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariola/ws_robotica/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/ws_robotica/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/mariola/ws_robotica/build/robot_control/build install --record /home/mariola/ws_robotica/build/robot_control/install.log --single-version-externally-managed install_data
+[1.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mariola/ws_robotica/src/robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariola/ws_robotica/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/ws_robotica/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/mariola/ws_robotica/build/robot_description/build install --record /home/mariola/ws_robotica/build/robot_description/install.log --single-version-externally-managed install_data
+[2.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariola/ws_robotica/src/robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariola/ws_robotica/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/ws_robotica/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/mariola/ws_robotica/build/robot_control/build install --record /home/mariola/ws_robotica/build/robot_control/install.log --single-version-externally-managed install_data
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_control' for CMake module files
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_control' for CMake config files
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_control/lib'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_control/bin'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_control/lib/pkgconfig/robot_control.pc'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_control/lib/python3.12/site-packages'
+[2.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'pythonpath')
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_control/share/robot_control/hook/pythonpath.ps1'
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/robot_control/share/robot_control/hook/pythonpath.dsv'
+[2.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_control/share/robot_control/hook/pythonpath.sh'
+[2.361s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_control/bin'
+[2.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control)
+[2.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_control/share/robot_control/package.ps1'
+[2.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariola/ws_robotica/install/robot_control/share/robot_control/package.dsv'
+[2.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_control/share/robot_control/package.sh'
+[2.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_control/share/robot_control/package.bash'
+[2.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_control/share/robot_control/package.zsh'
+[2.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariola/ws_robotica/install/robot_control/share/colcon-core/packages/robot_control)
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_ik' for CMake module files
+[2.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariola/ws_robotica/src/robot_ik' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariola/ws_robotica/build/robot_ik/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/ws_robotica/install/robot_ik/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_ik build --build-base /home/mariola/ws_robotica/build/robot_ik/build install --record /home/mariola/ws_robotica/build/robot_ik/install.log --single-version-externally-managed install_data
+[2.369s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_ik' for CMake config files
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_ik/lib'
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_ik/bin'
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_ik/lib/pkgconfig/robot_ik.pc'
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_ik/lib/python3.12/site-packages'
+[2.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_ik', 'pythonpath')
+[2.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_ik/share/robot_ik/hook/pythonpath.ps1'
+[2.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/robot_ik/share/robot_ik/hook/pythonpath.dsv'
+[2.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_ik/share/robot_ik/hook/pythonpath.sh'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_ik/bin'
+[2.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_ik)
+[2.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_ik/share/robot_ik/package.ps1'
+[2.374s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariola/ws_robotica/install/robot_ik/share/robot_ik/package.dsv'
+[2.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_ik/share/robot_ik/package.sh'
+[2.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_ik/share/robot_ik/package.bash'
+[2.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_ik/share/robot_ik/package.zsh'
+[2.375s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariola/ws_robotica/install/robot_ik/share/colcon-core/packages/robot_ik)
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description' for CMake module files
+[2.378s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description' for CMake config files
+[2.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mariola/ws_robotica/src/robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariola/ws_robotica/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/ws_robotica/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/mariola/ws_robotica/build/robot_description/build install --record /home/mariola/ws_robotica/build/robot_description/install.log --single-version-externally-managed install_data
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/lib'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/bin'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/lib/pkgconfig/robot_description.pc'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/lib/python3.12/site-packages'
+[2.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'pythonpath')
+[2.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/pythonpath.ps1'
+[2.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/pythonpath.dsv'
+[2.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mariola/ws_robotica/install/robot_description/share/robot_description/hook/pythonpath.sh'
+[2.382s] Level 1:colcon.colcon_core.environment:checking '/home/mariola/ws_robotica/install/robot_description/bin'
+[2.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[2.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.ps1'
+[2.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.dsv'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.sh'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.bash'
+[2.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/mariola/ws_robotica/install/robot_description/share/robot_description/package.zsh'
+[2.385s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mariola/ws_robotica/install/robot_description/share/colcon-core/packages/robot_description)
+[2.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.385s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.394s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.426s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.426s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mariola/ws_robotica/install/local_setup.ps1'
+[2.427s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mariola/ws_robotica/install/_local_setup_util_ps1.py'
+[2.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mariola/ws_robotica/install/setup.ps1'
+[2.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mariola/ws_robotica/install/local_setup.sh'
+[2.431s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mariola/ws_robotica/install/_local_setup_util_sh.py'
+[2.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mariola/ws_robotica/install/setup.sh'
+[2.434s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mariola/ws_robotica/install/local_setup.bash'
+[2.434s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mariola/ws_robotica/install/setup.bash'
+[2.435s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mariola/ws_robotica/install/local_setup.zsh'
+[2.436s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mariola/ws_robotica/install/setup.zsh'

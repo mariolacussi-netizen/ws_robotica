@@ -1,0 +1,7 @@
+{
+  "package_name": "pubsub2_interfaces",
+  "output_dir": "/home/mariola/visual_ws/build/pubsub2_interfaces/rosidl_generator_type_description/pubsub2_interfaces",
+  "idl_tuples": [
+    "/home/mariola/visual_ws/build/pubsub2_interfaces/rosidl_adapter/pubsub2_interfaces:msg/FiltroSensor.idl"
+  ]
+}

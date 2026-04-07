@@ -1,0 +1,3 @@
+[console_scripts]
+ik_node = robot_ik.ik_node:main
+ik_nodebio = robot_ik.ik_nodebio:main

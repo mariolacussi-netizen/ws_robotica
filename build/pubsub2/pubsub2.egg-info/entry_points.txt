@@ -1,0 +1,6 @@
+[console_scripts]
+filtered_sensor = pubsub2.filtered_sensor:main
+filtered_subscriber = pubsub2.filtered_subscriber:main
+sensor1 = pubsub2.sensor1:main
+sensor2 = pubsub2.sensor2:main
+sensor3 = pubsub2.sensor3:main

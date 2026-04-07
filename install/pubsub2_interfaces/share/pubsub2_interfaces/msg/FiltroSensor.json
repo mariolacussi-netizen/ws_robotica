@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "pubsub2_interfaces/msg/FiltroSensor",
+      "fields": [
+        {
+          "name": "sensor_value",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "pubsub2_interfaces/msg/FiltroSensor",
+      "hash_string": "RIHS01_2f6c64b6a30cf38cfabc0aa0874cc6b4688f49af014cca3a6427e52db8cbbd19"
+    }
+  ]
+}

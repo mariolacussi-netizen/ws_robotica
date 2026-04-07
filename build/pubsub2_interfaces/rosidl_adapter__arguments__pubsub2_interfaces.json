@@ -1,0 +1,6 @@
+{
+  "package_name": "pubsub2_interfaces",
+  "non_idl_tuples": [
+    "/home/mariola/visual_ws/src/pubsub2_interfaces:msg/FiltroSensor.msg"
+  ]
+}

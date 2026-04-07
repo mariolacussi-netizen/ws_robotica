@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pubsub2_interfaces/msg/FiltroSensor.msg
+// generated code does not contain a copyright notice
+
+
+module pubsub2_interfaces {
+  module msg {
+    struct FiltroSensor {
+      double sensor_value;
+
+      string name;
+    };
+  };
+};

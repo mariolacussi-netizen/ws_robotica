@@ -1,0 +1,56 @@
+[0.541s] Invoking command in '/home/mariola/visual_ws/src/pubsub2': AMENT_PREFIX_PATH=/home/mariola/visual_ws/install/pubsub2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mariola/visual_ws/install/pubsub2_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mariola/visual_ws/install/pubsub2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mariola/visual_ws/build/pubsub2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages:/home/mariola/visual_ws/install/pubsub2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub2 build --build-base /home/mariola/visual_ws/build/pubsub2/build install --record /home/mariola/visual_ws/build/pubsub2/install.log --single-version-externally-managed install_data
+[0.711s] running egg_info
+[0.711s] creating ../../build/pubsub2/pubsub2.egg-info
+[0.722s] writing ../../build/pubsub2/pubsub2.egg-info/PKG-INFO
+[0.722s] writing dependency_links to ../../build/pubsub2/pubsub2.egg-info/dependency_links.txt
+[0.722s] writing entry points to ../../build/pubsub2/pubsub2.egg-info/entry_points.txt
+[0.722s] writing requirements to ../../build/pubsub2/pubsub2.egg-info/requires.txt
+[0.722s] writing top-level names to ../../build/pubsub2/pubsub2.egg-info/top_level.txt
+[0.722s] writing manifest file '../../build/pubsub2/pubsub2.egg-info/SOURCES.txt'
+[0.745s] reading manifest file '../../build/pubsub2/pubsub2.egg-info/SOURCES.txt'
+[0.745s] writing manifest file '../../build/pubsub2/pubsub2.egg-info/SOURCES.txt'
+[0.745s] running build
+[0.746s] running build_py
+[0.746s] creating /home/mariola/visual_ws/build/pubsub2/build
+[0.746s] creating /home/mariola/visual_ws/build/pubsub2/build/lib
+[0.746s] creating /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2
+[0.746s] copying pubsub2/__init__.py -> /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2
+[0.746s] copying pubsub2/filtered_subscriber.py -> /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2
+[0.746s] copying pubsub2/sensor2.py -> /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2
+[0.746s] copying pubsub2/sensor3.py -> /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2
+[0.746s] copying pubsub2/sensor1.py -> /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2
+[0.747s] copying pubsub2/filtered_sensor.py -> /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2
+[0.747s] running install
+[0.750s] running install_lib
+[0.762s] creating /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2
+[0.762s] copying /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2/__init__.py -> /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2
+[0.762s] copying /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2/filtered_subscriber.py -> /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2
+[0.762s] copying /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2/sensor2.py -> /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2
+[0.762s] copying /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2/sensor3.py -> /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2
+[0.762s] copying /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2/sensor1.py -> /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2
+[0.763s] copying /home/mariola/visual_ws/build/pubsub2/build/lib/pubsub2/filtered_sensor.py -> /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2
+[0.763s] byte-compiling /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2/__init__.py to __init__.cpython-312.pyc
+[0.763s] byte-compiling /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2/filtered_subscriber.py to filtered_subscriber.cpython-312.pyc
+[0.763s] byte-compiling /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2/sensor2.py to sensor2.cpython-312.pyc
+[0.763s] byte-compiling /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2/sensor3.py to sensor3.cpython-312.pyc
+[0.763s] byte-compiling /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2/sensor1.py to sensor1.cpython-312.pyc
+[0.763s] byte-compiling /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2/filtered_sensor.py to filtered_sensor.cpython-312.pyc
+[0.764s] running install_data
+[0.764s] creating /home/mariola/visual_ws/install/pubsub2/share/ament_index
+[0.764s] creating /home/mariola/visual_ws/install/pubsub2/share/ament_index/resource_index
+[0.764s] creating /home/mariola/visual_ws/install/pubsub2/share/ament_index/resource_index/packages
+[0.764s] copying resource/pubsub2 -> /home/mariola/visual_ws/install/pubsub2/share/ament_index/resource_index/packages
+[0.764s] copying package.xml -> /home/mariola/visual_ws/install/pubsub2/share/pubsub2
+[0.764s] creating /home/mariola/visual_ws/install/pubsub2/share/pubsub2/msg
+[0.764s] creating /home/mariola/visual_ws/install/pubsub2/share/pubsub2/launch
+[0.764s] copying launch/sensors.launch.py -> /home/mariola/visual_ws/install/pubsub2/share/pubsub2/launch
+[0.764s] running install_egg_info
+[0.777s] Copying ../../build/pubsub2/pubsub2.egg-info to /home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages/pubsub2-0.0.0-py3.12.egg-info
+[0.778s] running install_scripts
+[0.857s] Installing filtered_sensor script to /home/mariola/visual_ws/install/pubsub2/lib/pubsub2
+[0.857s] Installing filtered_subscriber script to /home/mariola/visual_ws/install/pubsub2/lib/pubsub2
+[0.857s] Installing sensor1 script to /home/mariola/visual_ws/install/pubsub2/lib/pubsub2
+[0.857s] Installing sensor2 script to /home/mariola/visual_ws/install/pubsub2/lib/pubsub2
+[0.857s] Installing sensor3 script to /home/mariola/visual_ws/install/pubsub2/lib/pubsub2
+[0.857s] writing list of installed files to '/home/mariola/visual_ws/build/pubsub2/install.log'
+[0.879s] Invoked command in '/home/mariola/visual_ws/src/pubsub2' returned '0': AMENT_PREFIX_PATH=/home/mariola/visual_ws/install/pubsub2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mariola/visual_ws/install/pubsub2_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mariola/visual_ws/install/pubsub2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mariola/visual_ws/build/pubsub2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariola/visual_ws/install/pubsub2/lib/python3.12/site-packages:/home/mariola/visual_ws/install/pubsub2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub2 build --build-base /home/mariola/visual_ws/build/pubsub2/build install --record /home/mariola/visual_ws/build/pubsub2/install.log --single-version-externally-managed install_data
